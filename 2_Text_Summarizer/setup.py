@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "NLP_Projects"
 AUTHOR_USER_NAME = "Monika212121"
-SRC_REPO = "TextSummarizer"
+SRC_REPO = "TextSummarizer"                                         # local package we created inside src folder
 AUTHOR_EMAIL = "mgadewar12@gmail.com"
 
 setuptools.setup(                                                   # refer NOTE.md(4)

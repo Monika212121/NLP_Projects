@@ -27,3 +27,10 @@
 4. Use of setuptools.setup() 
 
 - This function will look for the constructor file `__init__.py` in every folder and will install it as my local package.
+
+
+5. Use of `config.yaml` file.
+
+- We are mentioning the location of artifacts folder, the source of data URL(github) and also the data unzip dir name. 
+
+- If we want to change any file name, we can change from this file, there is no need to manually go the file and change its name.  
