@@ -52,8 +52,8 @@ STAGE_NAME = "MODEL TRAINER STAGE"
 
 try:
     logger.info(f">>>>>>>>>>>>>>>{STAGE_NAME} started <<<<<<<<<<<<<<<<<<<<")
-    model_trainer_obj = ModelTrainingPipeline()
-    model_trainer_obj.main()
+    #model_trainer_obj = ModelTrainingPipeline()                                            # refer NOTE.md(8)
+    #model_trainer_obj.main()
     logger.info(f">>>>>>>>>>>>>>>{STAGE_NAME} completed <<<<<<<<<<<<<<<<<<<<")
 
 

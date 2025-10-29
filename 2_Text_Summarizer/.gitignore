@@ -91,4 +91,5 @@ cython_debug/
 Thumbs.db
 
 artifacts/*
+model_trainer_artifacts/*
 TextSum/*

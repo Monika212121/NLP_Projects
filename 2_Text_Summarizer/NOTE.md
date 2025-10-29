@@ -43,3 +43,23 @@
 - If the 3 folders(train, test, validation) are available, then status.txt = true, if not then false. 
 
 - Reason: Before providing data to our model during training, if there is anything wrong with the dat, it will throw error. We do Data validation to avoid this error. So, we need to verify that our data is in correct format or not before give it to the model training.
+
+
+### 7. Why in config.yaml, model_evaluation2 is used instead of model_evaluation
+
+- I don't have GPU on my system, so I cannot train such a heavy model on my system.
+
+- I trained the same code with same data using Google Colab, using GPU instead.
+
+- I downloaded the 2 things 'pegasus-model' files and 'tokenizer' files and kept them in `model_trainer_artifacts` folder.
+
+
+### 8. Why I am skipping training pipeline
+
+- I cannot train such a heavy model on my system (see point 7).
+
+- So, as training is not completed, the files will not be created for the model and tokenizer inside the `artifacts/model_trainer` folder.
+
+-  During evaluation, when we are about to read these files, it will throw error.
+
+- So, to avoid the error and breking of the entire pipeline, I am keeping my manually dowloaded model and tokenizer in another location and reading them from those files.

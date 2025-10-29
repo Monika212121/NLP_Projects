@@ -83,7 +83,7 @@ class ConfigurationManager:
 
     # 5. Model Evaluation
     def get_model_evaluation_config(self) -> ModelEvaluationConfig:
-        config = self.config.model_evaluation
+        config = self.config.model_evaluation2                              # refer NOTE.md(7)
 
         create_directories([config.root_dir])
 
