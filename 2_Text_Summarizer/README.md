@@ -20,7 +20,8 @@ It takes text of any length and summarizes the text to the desired limit of word
 
 1. Data Ingestion
 2. Data Validation
-
+3. Data Transformation
+4. Model training
 
 # Tools and frameworks used:
 
